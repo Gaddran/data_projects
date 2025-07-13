@@ -1,1 +1,6 @@
 data
+.venv/
+.venvlinux/
+*.pyc
+__pycache__/
+*.pyo
