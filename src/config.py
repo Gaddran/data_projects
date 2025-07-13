@@ -13,6 +13,6 @@ categorical_feat = [
     "DOLocationID",
     "RatecodeID",
 ]
-features = numeric_feat + categorical_feat
+
 EPS = 1e-7
 target_col = 'high_tip'
