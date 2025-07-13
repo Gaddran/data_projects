@@ -42,8 +42,6 @@ Luego abre y ejecuta el archivo:
 notebooks/main.ipynb
 ```
 
-# Para realizar las pruebas corre el notebeook /notebooks/main.ipynb
-
 ├── data
 │   ├── processed
 │   │   └── preprocessed.parquet
