@@ -42,37 +42,33 @@ Luego abre y ejecuta el archivo:
 notebooks/main.ipynb
 ```
 
+```
+.
 ├── data
 │   ├── processed
 │   │   └── preprocessed.parquet
 │   └── raw
 │       └── yellow_tripdata_2020-01.parquet
+├── __init__.py
 ├── models
 │   └── random_forest_model.joblib
 ├── notebooks
 │   └── main.ipynb
-├── src
-│   ├── data
-│   │   ├── __pycache__
-│   │   ├── dataset.py
-│   │   └── __init__.py
-│   ├── features
-│   │   ├── __pycache__
-│   │   ├── build_features.py
-│   │   └── __init__.py
-│   ├── modeling
-│   │   ├── __pycache__
-│   │   ├── __init__.py
-│   │   ├── predict.py
-│   │   └── train.py
-│   ├── __pycache__
-│   │   ├── config.cpython-313.pyc
-│   │   ├── __init__.cpython-312.pyc
-│   │   └── __init__.cpython-313.pyc
-│   ├── visualization
-│   │   └── plots.py
-│   ├── config.py
-│   └── __init__.py
-├── __init__.py
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── src
+    ├── config.py
+    ├── data
+    │   ├── dataset.py
+    │   └── __init__.py
+    ├── features
+    │   ├── build_features.py
+    │   └── __init__.py
+    ├── __init__.py
+    ├── modeling
+    │   ├── __init__.py
+    │   ├── predict.py
+    │   └── train.py
+    └── visualization
+        └── plots.py
+```
